@@ -1,0 +1,20 @@
+{
+    "name": "tangrucheng/tiny",
+    "description": "Tiny Framework, a PHP micro framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tang ru cheng",
+            "email": "tangrucheng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tiny\\": "Tiny/",
+        }
+    }
+}
